@@ -14,7 +14,7 @@ This project aims to develop a gamified multilingual education website for prima
 
 ## Problem Statement
 
-The challenge is to create a 
+The mission of the Solution Challenge is to solve for one or more of the United Nations' 17 Sustainable Development Goals using Google technology.
 
 ## Use Cases
 
