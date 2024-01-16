@@ -56,7 +56,9 @@ button.sec1-right-account {
     border: 0.02rem solid black;
 }
 .sec2 {
-    margin: 3rem 7.5rem; 
+    padding: 3rem 7.5rem; 
+    background-color: #9c0f48;
+    color: white;
 }
 
 .sec2 h2.section-title {
