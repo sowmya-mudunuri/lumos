@@ -55,3 +55,38 @@ button.sec1-right-account {
     color: #9c0f48;
     border: 0.02rem solid black;
 }
+.sec2 {
+    margin: 3rem 7.5rem; 
+}
+  
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.image-item {
+    border: 1px solid #ccc;
+    padding: 0.625rem; 
+}
+  
+.image-item img {
+    width: 18.75rem;
+    height: 12.5rem; 
+    object-fit: cover;
+}
+  
+.image-item h3 {
+    font-size: 1.125rem; 
+    margin-top: 0.625rem; 
+}
+  
+.image-item p {
+    font-size: 0.875rem; 
+    line-height: 1.5;
+}
+  
+  @media (max-width: 48rem) { 
+    .image-item img {
+      width: 100%;
+    }
+}
