@@ -1,4 +1,4 @@
-# Untitled - GDSC Solution Challenge - Education for All 🌍📚
+# Kindled - GDSC Solution Challenge - Education for All 🌍📚
 
 ## Overview 🚀
 
