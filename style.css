@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Monserrat', sans-serif;
+    background-color: white;
+}
+.navbar{
+    margin: 0.08rem 18rem;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-title{
+    font-size: 2.5rem;
+    font-weight: 600;
+    display: inline-block;
+    color: #9c0f48;
+}
+.navbar-dropdown:hover{
+    border: 0.02rem solid #9c0f48;
+    border-radius: 0.5rem;
+}
+.sec1{
+    margin: 6rem 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.sec1 img{
+    height: 25rem;
+    width: auto;
+}
+.sec1-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec1-right-title{
+    text-align: center;
+}
+.sec1-right button{
+    width: 20rem;
+    height: 3rem;
+    margin-top: 1rem;
+    font-weight: 700;
+    border-radius: 1rem;
+}
+button.sec1-right-getstarted {
+    background-color: #9c0f48;
+    color: white;
+}
+
+button.sec1-right-account {
+    color: #9c0f48;
+    border: 0.02rem solid black;
+}
