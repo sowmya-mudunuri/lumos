@@ -27,7 +27,7 @@
         </div>
         <div class="sec1-right">
             <h2 class="sec1-right-title">The free, fun, and effective way to learn a lesson!</h2>
-            <button class="btn sec1-right-getstarted">GET STARTED</button>
+            <button class="btn sec1-right-getstarted" onclick="redirectToClassPage()" >GET STARTED</button>
             <button class="btn sec1-right-account">I ALREADY HAVE AN ACCOUNT</button>
         </div>
     </div>
@@ -51,5 +51,10 @@
             </div>
         </div>
     </div>
+    <script>
+        function redirectToClassPage() {
+            window.location.href = 'class.html';
+        }
+    </script>
 </body>
 </html>
