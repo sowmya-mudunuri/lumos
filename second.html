@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+
+    <title>Second Page</title>
+</head>
+<body>
+
+    <div id="content-wrapper">
+        <section id="mood-section">
+            <h2>Choose your mood </h2>
+            <div id="selected-mood"></div>
+            <!-- Use emojis for different moods -->
+            <button class="mood-button" onclick="selectMood('😊')">😊 Happy</button>
+            <button class="mood-button" onclick="selectMood('😢')">😢 Sad</button>
+            <button class="mood-button" onclick="selectMood('😎')">😎 Cool</button>
+        </section>
+    </div>
+
+    <section id="quote-section">
+        <h2>QUOTE OF THE DAY</h2>
+        "Your quote of the day goes here."
+    </section>
+
+    <!-- New section with three subsections -->
+    <section id="picture-boxes-section" >
+        <!-- First Subsection -->
+        <div class="picture-box-subsection">
+            <img src="music.jpeg" alt="Picture 1">
+            <div class="box-with-shadow" id="music">
+                Music Therapy
+            </div>
+        </div>
+
+        <!-- Second Subsection -->
+        <div class="picture-box-subsection" >
+            <div class="box-with-shadow" id="art">
+                Art therapy
+            </div>
+            <img src="music.jpeg" alt="Picture 2" id="artimg">
+        </div>
+
+        <!-- Third Subsection -->
+        <div class="picture-box-subsection" >
+            <img src="music.jpeg" alt="Picture 3">
+            <div class="box-with-shadow" id="story">
+                Story read out Therapy
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function selectMood(emoji) {
+            document.getElementById('selected-mood').innerText = emoji;
+        }
+    </script>
+</body>
+</html>

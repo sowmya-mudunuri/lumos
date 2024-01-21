@@ -1,0 +1,97 @@
+#content-wrapper {
+    margin-right: 20px;
+    display: flex;
+    width: 100%;
+}
+
+#quote-section,
+#mood-section,
+#music,
+#art,
+#story {
+    transition: transform 0.3s ease; /* Added transition property for smooth animation */
+}
+
+#quote-section:hover,
+#mood-section:hover,
+#music:hover,
+#art:hover,
+#story:hover {
+    transform: translateY(-10px); /* Adjusted translateY for sliding up effect on hover */
+}
+
+#quote-section {
+    margin-top: 70px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    width: 85%;
+    height: 150px;
+    margin-left: 90px;
+}
+
+#mood-section {
+    background-color: #fff;
+    font-size: 30px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    height: 290px;
+    margin-left: 90px;
+    margin-top: 130px;
+}
+
+#picture-boxes-section {
+    display: flex;
+    flex-direction: column;
+    margin: 70px 30px 30px; /* Adjusted margin top, right, bottom */
+}
+
+.picture-box-subsection {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+.picture-box-subsection img {
+    width: 27%; /* Make the image fill the container */
+    max-width: 100%; /* Ensure the image doesn't exceed its original size */
+    height: 240px; /* Allow the height to adjust according to the aspect ratio */
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-right: 100px;
+    margin-left: 157px;
+}
+
+#artimg {
+    margin-left: 100px;
+}
+#art{
+    margin-left: 88px;
+}
+.box-with-shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    width: 42%;
+    justify-content: center;
+    padding: 10px; 
+    height: 270px; 
+}
+
+.mood-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 5px;
+    padding: 0;
+}
+
+#mood-section button:hover {
+    text-decoration: underline;
+}
